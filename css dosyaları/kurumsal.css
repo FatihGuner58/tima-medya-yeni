@@ -1,0 +1,75 @@
+.kurumsal-title{
+    height:150px ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:#173251;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top:100px ;
+}
+@media (max-width: 1280px) {
+    .ara-reklam{
+        margin-top: 310px;
+    }
+}
+@media (max-width: 680px) {
+    
+    #reklam-right{
+        font-size: 25px;  
+    }
+}
+.vizyon-misyon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Container'ı genişliği boyunca yay */
+    flex-wrap: wrap; /* Eğer sığmazsa alt satıra geçsin */
+}
+
+.vizyon,
+.misyon {
+    flex: 1;
+    padding: 20px; /* Gerekli padding değerlerini ayarla */
+    border: 1px solid #ccc; /* Opsiyonel: sınırları göstermek için */
+}
+
+.vizyon-title,
+.misyon-title {
+    text-align: center; /* Başlıkları merkezine hizala */
+}
+
+.vizyon-p,
+.misyon-p {
+    margin-top: 10px; /* Paragraflar arasında boşluk bırak */
+}
+.vizyon-p{
+   padding-left: 80px;
+   text-align: center;
+   font-size: 21px;
+   padding-right: 40px;
+}
+.misyon-p{
+    padding-left: 40px;
+    text-align: center;
+    font-size: 21px;
+    padding-right: 80px;
+}
+@media (max-width: 1000px) {
+    .vizyon,
+    .misyon {
+        flex-basis: 100%; /* 1000px'den küçükse tam genişlik */
+        margin-bottom: 20px; /* Alt alta geçtikleri zaman aralarında boşluk bırak */
+    }
+}
+@media (max-width: 600px) {
+
+.vizyon-p, .misyon-p{
+    padding: 0;
+    font-size: 17px;
+}
+}
+@media (max-width: 500px){
+    .vizyon-p, .misyon-p{
+        font-size: 14px;
+        padding: 0;
+    }
+}
